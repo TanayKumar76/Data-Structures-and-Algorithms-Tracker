@@ -11,6 +11,18 @@ Output:["neet","code","love","you"]
 Example 2:
 Input: ["we","say",":","yes"]
 Output: ["we","say",":","yes"]
+
+Optimal Solution: Length prefix encoding (e.g., "4#word5#hello")
+
+Encode Time Complexity: O(n) - where n is total characters in all strings
+Decode Time Complexity: O(n) - single pass through encoded string
+Space Complexity: O(n) - store encoded string
+
+Alternative: Delimiter-based (if no special characters in strings)
+
+Encode Time Complexity: O(n)
+Decode Time Complexity: O(n)
+Space Complexity: O(n)
  */
 import java.util.*;
 public class encodeco {
