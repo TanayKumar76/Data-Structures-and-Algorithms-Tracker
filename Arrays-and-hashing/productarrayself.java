@@ -14,6 +14,16 @@ Output: [48,24,12,8]
 Example 2:
 Input: nums = [-1,0,1,2,3]
 Output: [0,-6,0,0,0]
+
+Optimal Solution: Left and Right pass (using output array for left products)
+
+Time Complexity: O(n) - two passes through array
+Space Complexity: O(1) - constant extra space (not counting output array)
+
+Alternative: Two separate arrays for left/right products
+
+Time Complexity: O(n) - three passes through array
+Space Complexity: O(n) - additional arrays for left/right products
  */
 import java.util.*;
 public class productarrayself {
