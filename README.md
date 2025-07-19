@@ -4,8 +4,8 @@ My journey through NeetCode's Blind 75 problems.
 
 ## Progress Tracker
 
-### Arrays and Hashing (1/8)
-- [x] Contains Duplicate ✅
+### Arrays and Hashing (8/8)
+- [x] Contains Duplicate 
 - [x] Valid Anagram
 - [x] Two Sum
 - [x] Group Anagrams
