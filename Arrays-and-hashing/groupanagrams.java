@@ -17,6 +17,16 @@ Output: [["x"]]
 Example 3:
 Input: strs = [""]
 Output: [[""]]
+
+Optimal Solution: HashMap with sorted string as key
+
+Time Complexity: O(n × k log k) - where n is number of strings, k is max string length
+Space Complexity: O(n × k) - store all strings in hashmap
+
+Alternative: Character frequency as key
+
+Time Complexity: O(n × k) - where n is number of strings, k is max string length
+Space Complexity: O(n × k) - store all strings
  */
 import java.util.*;
 public class groupanagrams {
