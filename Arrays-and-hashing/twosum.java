@@ -20,7 +20,18 @@ Output: [0,2]
 
 Example 3:
 Input: nums = [5,5], target = 10
-Output: [0,1] */
+Output: [0,1] 
+
+Optimal Solution: HashMap (one-pass)
+
+Time Complexity: O(n) - single pass through array
+Space Complexity: O(n) - store up to n elements in hashmap
+
+Brute Force: Nested loops
+
+Time Complexity: O(n²) - check all pairs
+Space Complexity: O(1) - no extra space
+*/
 import java.util.*;
 public class twosum {
     public int[] twoSum(int[] nums,int target){
