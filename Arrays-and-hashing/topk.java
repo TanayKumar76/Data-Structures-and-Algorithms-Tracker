@@ -13,6 +13,21 @@ Output: [2,3]
 Example 2:
 Input: nums = [7,7], k = 1
 Output: [7] 
+
+Optimal Solution: HashMap + Bucket Sort
+
+Time Complexity: O(n) - linear time bucket sort
+Space Complexity: O(n) - hashmap + buckets
+
+Alternative: HashMap + Heap
+
+Time Complexity: O(n log k) - maintain heap of size k
+Space Complexity: O(n + k) - hashmap + heap
+
+Alternative: HashMap + Sorting
+
+Time Complexity: O(n log n) - sorting by frequency
+Space Complexity: O(n) - hashmap
   */
 import java.util.*;
 public class topk {
