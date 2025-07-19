@@ -15,6 +15,16 @@ Example 2:
 
 Input: s = "jar", t = "jam"
 Output: false
+
+Optimal Solution: Character frequency count using HashMap/array
+
+Time Complexity: O(n) - where n is length of strings
+Space Complexity: O(1) - constant space for 26 lowercase letters (or O(k) for k unique characters)
+
+Alternative: Sort both strings
+
+Time Complexity: O(n log n) - sorting
+Space Complexity: O(1) - if sorting in-place
  */
 import java.util.*;
 public class validanagram {
