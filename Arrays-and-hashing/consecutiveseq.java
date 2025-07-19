@@ -18,6 +18,17 @@ Explanation: The longest consecutive sequence is [2, 3, 4, 5].
 Example 2:
 Input: nums = [0,3,2,5,4,6,1,1]
 Output: 7
+
+Optimal Solution: HashSet for O(1) lookup
+
+Time Complexity: O(n) - each element visited at most twice
+Space Complexity: O(n) - store all elements in hashset
+
+Key Insight: Only start counting from elements that are the beginning of a sequence (no num-1 exists)
+Brute Force: Sort first, then find longest sequence
+
+Time Complexity: O(n log n) - sorting dominates
+Space Complexity: O(1) - if sorting in-place
  */
 
 import java.util.*;
