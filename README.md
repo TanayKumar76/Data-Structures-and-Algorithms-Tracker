@@ -11,7 +11,7 @@ My journey through NeetCode's Blind 75 problems - the most essential LeetCode pr
 ## 🏗️ Repository Structure
 Each problem includes:
 - Problem statement and examples as comments
-- Time and space complexity analysis
+- Time and space complexity Analysis
 - Multiple solution approaches (where applicable)
 - Test cases with edge cases in main method
 
