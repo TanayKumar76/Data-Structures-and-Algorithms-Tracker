@@ -1,19 +1,19 @@
-# Blind 75 NeetCode Solutions
+# 🚀 DSA Progress
 
-My journey through NeetCode's Blind 75 problems - the most essential LeetCode problems for technical interviews.
+Tracking my journey in mastering **Data Structures & Algorithms** for technical interviews, problem-solving skills, and competitive programming.
 
 ## 📊 Current Status
 - 🔥 **Started**: July 18, 2025
-- 📚 **Problems Solved**: 8/75 (10.7%)
-- 🎯 **Target**: Complete by August 2025
+- 📚 **Problems Solved**: 8 (and counting)
+- 🎯 **Target**: Complete core patterns by August 2025
 - 💻 **Languages**: Java, Python
 
 ## 🏗️ Repository Structure
 Each problem includes:
 - Problem statement and examples as comments
-- Time and space complexity Analysis
+- Time and space complexity analysis
 - Multiple solution approaches (where applicable)
-- Test cases with edge cases in main method
+- Test cases with edge cases in `main` method
 
 ## 📈 Progress Tracker
 
@@ -137,19 +137,18 @@ Each problem includes:
 
 ## 🚀 How to Use
 1. Each file is self-contained and runnable
-2. Run any solution: `javac filename.java && java ClassName`
+2. Run any solution:
+   ```bash
+   javac filename.java && java ClassName
 3. Check comments for complexity analysis and approach explanation
 4. Test cases cover edge cases and typical scenarios
 
-**Priority Order** (recommended):
-1. **Foundation**: Arrays, Two Pointers, Sliding Window, Stack
-2. **Core DS**: Binary Search, Linked List, Trees
-3. **Advanced**: DP, Graphs, Backtracking
-4. **Specialized**: Tries, Heaps, Intervals, Bit Manipulation
+## Priority Order:
 
-## 📚 Resources
-- [NeetCode.io](https://neetcode.io/) - Video explanations and roadmap
-- [LeetCode](https://leetcode.com/) - Original problems
-- [Blind 75 List](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-wV0ld7qL) - Original curated list
+- Foundation: Arrays, Two Pointers, Sliding Window, Stack
 
-**Progress**: 8/75 problems solved | 1/17 categories completed
+- Core DS: Binary Search, Linked List, Trees
+
+- Advanced: DP, Graphs, Backtracking
+
+- Specialized: Tries, Heaps, Intervals, Bit Manipulation
