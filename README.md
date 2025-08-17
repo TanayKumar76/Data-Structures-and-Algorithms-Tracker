@@ -5,7 +5,7 @@ Tracking my journey in mastering **Data Structures & Algorithms** for technical 
 ## 📊 Current Status
 - 🔥 **Started**: July 18, 2025
 - 📚 **Problems Solved**: 8 (and counting)
-- 🎯 **Target**: Complete core patterns by August 2025
+- 🎯 **Target**: Complete core patterns 
 - 💻 **Languages**: Java, Python
 
 ## 🏗️ Repository Structure
